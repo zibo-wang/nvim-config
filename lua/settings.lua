@@ -73,3 +73,11 @@ end
 -- }}}
 
 -- vim: tabstop=2 shiftwidth=2 expandtab syntax=lua foldmethod=marker foldlevelstart=1
+
+-- Misc {{{
+
+-- display line number
+opt.number = true
+opt.relativenumber = true
+
+-- }}}
