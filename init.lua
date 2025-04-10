@@ -2,6 +2,8 @@
 require("bootstrap")
 require("core")
 
+vim.g.python3_host_prog = "~/.rye/shims/python3"
+
 require("lazy").setup(
   {
     {
