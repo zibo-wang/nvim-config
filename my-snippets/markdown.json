@@ -1,0 +1,24 @@
+{
+    "name eg": {
+        "prefix": "name",
+        "body": [
+            "Zibo Wang ${0}"
+        ],
+        "description": "Print full name"
+    },
+    "name first eg": {
+        "prefix": "fr",
+        "body": [
+            "Zibo ${0}"
+        ],
+        "description": "Print first name"
+    },
+    "email sign": {
+        "prefix": "signbw",
+        "body": [
+            "Regards ${1:text},",
+            "Zibo"
+        ],
+        "description": "Sign email regards _____"
+    }
+}
