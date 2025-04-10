@@ -6,7 +6,7 @@ return {
       {
         -- your options here
         -- e.g. lazy_path = "/path/to/lazy.nvim"
-        patches_path = vim.fn.stdpath("config") .. "lua/patches", -- Directory where patch files are stored
+        patches_path = vim.fn.stdpath("config") .. "/lua/patches", -- Directory where patch files are stored
         print_logs = true -- Print log messages while applying changes
       }
     )
